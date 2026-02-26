@@ -1,0 +1,12 @@
+[package]
+name = "digital_life"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+raylib = "5.5"
+rand = "0.8.4"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
